@@ -14,7 +14,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'seg_models'
 DESCRIPTION = 'Image Seg-Models with pre-trained backbones with Keras.'
-URL = https://github.com/crnizmaj12/seg_models'
+URL = https://github.com/crnizmaj12/seg_models-master'
 EMAIL = 'office.inint@gmail.com'
 AUTHOR = 'Miloš Ćorlomanović'
 COAUTHOR = 'Iva Vrtarić'

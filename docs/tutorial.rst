@@ -100,7 +100,7 @@ PSPNet        FPN
 |psp_image|   |fpn_image|
 ============= ==============
 
-.. _Unet: https://github.com/crnizmaj12/seg_models/blob/readme/LICENSE
+.. _Unet: https://github.com/crnizmaj12/seg_models-master/blob/readme/LICENSE
 .. _Linknet: https://arxiv.org/abs/1707.03718
 .. _PSPNet: https://arxiv.org/abs/1612.01105
 .. _FPN: http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf

@@ -27,7 +27,7 @@ Installation
 
 .. code:: bash
 
-    $ pip install git+https://github.com/crnizmaj12/seg_models
+    $ pip install git+https://github.com/crnizmaj12/seg_models-master
 
 .. _Guide:
     https://www.tensorflow.org/install/

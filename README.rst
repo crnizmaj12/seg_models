@@ -1,7 +1,7 @@
 .. raw:: html
 
     <p align="center">
-      <img src="https://i.ibb.co/GtxGS8m/Segmentation-Models-V1-Side-3-1.png">
+      <img src="">
       <b>Python library with Neural Networks for Image Segmentation based on <a href=https://www.keras.io>Keras</a> and <a href=https://www.tensorflow.org>TensorFlow</a>.
       </b>
       <br></br>
@@ -149,8 +149,8 @@ Same manipulations can be done with ``Linknet``, ``PSPNet`` and ``FPN``. For mor
 Examples
 ~~~~~~~~
 Models training examples:
- - [Jupyter Notebook] Binary segmentation (`cars`) on CamVid dataset `here <https://github.com/crnizmaj12/seg_models/blob/master/examples/binary%20segmentation%20(camvid).ipynb>`__.
- - [Jupyter Notebook] Multi-class segmentation (`cars`, `pedestrians`) on CamVid dataset `here <https://github.com/crnizmaj12/seg_models/blob/master/examples/multiclass%20segmentation%20(camvid).ipynb>`__.
+ - [Jupyter Notebook] Binary segmentation (`cars`) on CamVid dataset `here <https://github.com/crnizmaj12/seg_models-master/blob/master/examples/binary%20segmentation%20(camvid).ipynb>`__.
+ - [Jupyter Notebook] Multi-class segmentation (`cars`, `pedestrians`) on CamVid dataset `here <https://github.com/crnizmaj12/seg_models-master/blob/master/examples/multiclass%20segmentation%20(camvid).ipynb>`__.
 
 Models and Backbones
 ~~~~~~~~~~~~~~~~~~~~
@@ -173,15 +173,15 @@ PSPNet        FPN
 |psp_image|   |fpn_image|
 ============= ==============
 
-.. _Unet: https://github.com/crnizmaj12/seg_models/blob/readme/LICENSE
+.. _Unet: https://github.com/crnizmaj12/seg_models-master/blob/readme/LICENSE
 .. _Linknet: https://arxiv.org/abs/1707.03718
 .. _PSPNet: https://arxiv.org/abs/1612.01105
 .. _FPN: http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf
 
-.. |unet_image| image:: https://github.com/crnizmaj12/seg_models/blob/master/images/unet.png
-.. |linknet_image| image:: https://github.com/crnizmaj12/seg_models/blob/master/images/linknet.png
-.. |psp_image| image:: https://github.com/crnizmaj12/seg_models/blob/master/images/pspnet.png
-.. |fpn_image| image:: https://github.com/crnizmaj12/seg_models/blob/master/images/fpn.png
+.. |unet_image| image:: https://github.com/crnizmaj12/seg_models-master/blob/master/images/unet.png
+.. |linknet_image| image:: https://github.com/crnizmaj12/seg_models-master/blob/master/images/linknet.png
+.. |psp_image| image:: https://github.com/crnizmaj12/seg_models-master/blob/master/images/pspnet.png
+.. |fpn_image| image:: https://github.com/crnizmaj12/seg_models-master/blob/master/images/fpn.png
 
 **Backbones**
 
@@ -233,7 +233,7 @@ Installation
 
 .. code:: bash
 
-    $ pip install git+https://github.com/crnizmaj12/seg_models
+    $ pip install git+https://github.com/crnizmaj12/seg_models-master
     
 Documentation
 ~~~~~~~~~~~~~
@@ -255,12 +255,12 @@ Citing
       Year = {2019},
       Publisher = {GitHub},
       Journal = {GitHub repository},
-      Howpublished = {\url{https://github.com/crnizmaj12/seg_models}}
+      Howpublished = {\url{https://github.com/crnizmaj12/seg_models-master}}
     } 
 
 License
 ~~~~~~~
 Project is distributed under `MIT Licence`_.
 
-.. _CHANGELOG.md: https://github.com/crnizmaj12/seg_models/blob/master/CHANGELOG.md
-.. _`MIT Licence`: https://github.com/crnizmaj12/seg_models/blob/master/LICENSE
+.. _CHANGELOG.md: https://github.com/crnizmaj12/seg_models-master/blob/master/CHANGELOG.md
+.. _`MIT Licence`: https://github.com/crnizmaj12/seg_models-master/blob/master/LICENSE
