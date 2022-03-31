@@ -1,6 +1,22 @@
 {
     "configurations": [
         {
+            "type": "node",
+            "request": "attach",
+            "name": "Docker: Attach to Node",
+            "remoteRoot": "/usr/src/app"
+        },
+        {
+            "name": "Docker .NET Core Attach (Preview)",
+            "type": "docker",
+            "request": "attach",
+            "platform": "netCore",
+            "sourceFileMap": {
+                "/src": "${workspaceFolder}"
+            }
+        },
+
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
@@ -18,7 +34,7 @@
                 "logicalId": "Function Logical ID"
             },
             "api": {
-                "path": "Path",
+                "path": "https://github.com/crnizmaj12/seg_models-master",
                 "httpMethod": "post",
                 "payload": {
                     "json": {}
