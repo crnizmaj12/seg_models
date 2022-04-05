@@ -221,13 +221,13 @@ Installation
 
 .. code:: bash
 
-    $ pip install -U segmentation-models
+    $ pip install -U seg-models
 
 **PyPI latest package**
 
 .. code:: bash
 
-    $ pip install -U --pre segmentation-models
+    $ pip install -U --pre seg-models
 
 **Source latest version**
 

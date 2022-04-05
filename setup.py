@@ -4,6 +4,7 @@
 # Note: To use the 'upload' functionality of this file, you must:
 #   $ pip install twine
 
+from http import HTTPStatus
 import io
 import os
 import sys
