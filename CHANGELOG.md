@@ -53,8 +53,8 @@
 
 ###### Thanks
 
-[#15](https://github.com/crnizmaj12/seg_models-master/issues/15) [#37](https://github.com/crnizmaj12/seg_models-master/pull/37) investigation of `align_corners` parameter in `ResizeImage` layer  
-[#29](https://github.com/crnizmaj12/seg_models-master/issues/29) investigation about convolution kernel in PSPNet final layers
+[#15](https://github.com/crnizmaj12/seg_models/issues/15) [#37](https://github.com/crnizmaj12/seg_models/pull/37) investigation of `align_corners` parameter in `ResizeImage` layer  
+[#29](https://github.com/crnizmaj12/seg_models/issues/29) investigation about convolution kernel in PSPNet final layers
 
 **Version 0.1.2**  
 

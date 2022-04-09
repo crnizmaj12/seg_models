@@ -34,7 +34,7 @@
                 "logicalId": "Function Logical ID"
             },
             "api": {
-                "path": "https://github.com/crnizmaj12/seg_models-master",
+                "path": "https://github.com/crnizmaj12/seg_models",
                 "httpMethod": "post",
                 "payload": {
                     "json": {}
