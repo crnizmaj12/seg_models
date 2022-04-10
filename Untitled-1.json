@@ -1,0 +1,100 @@
+{
+	"Id": "sha256:1d100d9590b3b7326cc08012aa6f08a5a67fc260a30e7252c8ea83b1f2901fa4",
+	"RepoTags": [
+		"vsc-keras-master-60eaa60f00e4db3ccd908df1afd6dd81:latest"
+	],
+	"RepoDigests": [],
+	"Parent": "",
+	"Comment": "buildkit.dockerfile.v0",
+	"Created": "2022-04-09T22:19:09.0885083Z",
+	"Container": "",
+	"ContainerConfig": {
+		"Hostname": "",
+		"Domainname": "",
+		"User": "",
+		"AttachStdin": false,
+		"AttachStdout": false,
+		"AttachStderr": false,
+		"Tty": false,
+		"OpenStdin": false,
+		"StdinOnce": false,
+		"Env": null,
+		"Cmd": null,
+		"Image": "",
+		"Volumes": null,
+		"WorkingDir": "",
+		"Entrypoint": null,
+		"OnBuild": null,
+		"Labels": null
+	},
+	"DockerVersion": "",
+	"Author": "",
+	"Config": {
+		"Hostname": "",
+		"Domainname": "",
+		"User": "keras-vscode",
+		"AttachStdin": false,
+		"AttachStdout": false,
+		"AttachStderr": false,
+		"Tty": false,
+		"OpenStdin": false,
+		"StdinOnce": false,
+		"Env": [
+			"PATH=/home/keras-vscode/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+			"LANG=C.UTF-8",
+			"GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
+			"PYTHON_VERSION=3.9.12",
+			"PYTHON_PIP_VERSION=22.0.4",
+			"PYTHON_SETUPTOOLS_VERSION=58.1.0",
+			"PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/38e54e5de07c66e875c11a1ebbdb938854625dd8/public/get-pip.py",
+			"PYTHON_GET_PIP_SHA256=e235c437e5c7d7524fbce3880ca39b917a73dc565e0c813465b7a7a329bb279a"
+		],
+		"Cmd": [
+			"/bin/bash"
+		],
+		"ArgsEscaped": true,
+		"Image": "",
+		"Volumes": null,
+		"WorkingDir": "",
+		"Entrypoint": null,
+		"OnBuild": null,
+		"Labels": null
+	},
+	"Architecture": "amd64",
+	"Os": "linux",
+	"Size": 993419343,
+	"VirtualSize": 993419343,
+	"GraphDriver": {
+		"Data": {
+			"LowerDir": "/var/lib/docker/overlay2/goalj4vyzi6l6vwstwdqanj7y/diff:/var/lib/docker/overlay2/7kwdiu142h42thtaaiydwct9w/diff:/var/lib/docker/overlay2/jdj39u9c8jh58z6x817s8voqs/diff:/var/lib/docker/overlay2/izl13gyc8l1g512bg4v3nfg00/diff:/var/lib/docker/overlay2/v2igfubktj3qvilggznewj9nq/diff:/var/lib/docker/overlay2/j7zf60b4iv1nl6hmxruw0zvtq/diff:/var/lib/docker/overlay2/36b00d4965d770347bdfbcd97a41f45f279e201e314ba402665cfd8b767ebbe5/diff:/var/lib/docker/overlay2/a9fbe0263ef1eb98018c721501421e0af57a5b6d6606a45e9ca20f85da1f529b/diff:/var/lib/docker/overlay2/908c767f9bd857cccb68657c33e72eb3715ab0c1552d7dc34f549b8771d46352/diff:/var/lib/docker/overlay2/49255f5f61e37fd9b24bfe23c68b71c994bd07cb66702dd6bb1200b0a5625fb2/diff:/var/lib/docker/overlay2/bfd352f17a129599a15c536ca2457d5596031c459ace312fa4909d75617caf4a/diff:/var/lib/docker/overlay2/7cd22e0e48bbe3345bb9e0783ba9b0899ee15c932dc789542703586152576918/diff:/var/lib/docker/overlay2/5e6220a676e65c7e3c6512eb018bccfde56dbbc9a360c4137c689ae67c3cab81/diff:/var/lib/docker/overlay2/71f0aedb9711cf7d7758f349481f10edd33421a793b254343ce55214b5cdd8c4/diff:/var/lib/docker/overlay2/fdbd45d70a64d03703a6d6ae66d65e4a7e72c7587e7f7dcc782ece14477c5b28/diff",
+			"MergedDir": "/var/lib/docker/overlay2/ljso0j8y97qswxhz1la9vromi/merged",
+			"UpperDir": "/var/lib/docker/overlay2/ljso0j8y97qswxhz1la9vromi/diff",
+			"WorkDir": "/var/lib/docker/overlay2/ljso0j8y97qswxhz1la9vromi/work"
+		},
+		"Name": "overlay2"
+	},
+	"RootFS": {
+		"Type": "layers",
+		"Layers": [
+			"sha256:4ac8bc2cd0bed27b5d7bcdf724530b8f718618bb2e2b466a70a7136975378bc6",
+			"sha256:348622fdcc617bbef1a8d7ac19b47b695109164160a507f1837289a414c3a70c",
+			"sha256:d59769727d800c08c09f47e72906d5723958e2d7684a68ad54097ec294e80dc8",
+			"sha256:7a7698da17f29db593cf6d1a35127e494beb644e1819ee99d0036f12f54e694d",
+			"sha256:c5579a205adc296258840de0c2e452ee4c0be5b6c4e1143e93c48fac0de52e32",
+			"sha256:89f49a7a4e4a4156979ca2a9aab1ad2763732d4411604a190c13bf839f7db957",
+			"sha256:f9d192182802a8fb8d29f716293ee1209385f765d751176b899be796e2ae49b4",
+			"sha256:cc4c988bb831c427ca2ecf7834dad5207f6195b986075f36c9353647d26d22e0",
+			"sha256:6e3103bc7aba4c6114ada7360f4d3a51b16cb1a84177093e52a713e96b1ff4a0",
+			"sha256:17bd3422a9584eb2bcc064ddb44a3c527e4b0aee27ae7589de76977f986d1a9d",
+			"sha256:09187fea977b05d32f8eec6fda7a2bc41bc8d578a7f29df6f5d73eb07bcde513",
+			"sha256:f45aa06459524751b33c274fb3dc8256dc09946b75670de4e0e7f0cceb0fe0b0",
+			"sha256:aa973037cb21f15b217cdb68122978696903c0c0d1ef558b601bce263ba96be4",
+			"sha256:d6fa67fa7dc66dbaa38f679e40305e277c6e12636e9d21b270ea607f7dee39c0",
+			"sha256:cdcdc12bbdb5e61732e62f57781ae0356707cfe68a5bb4c6702857a20238deda",
+			"sha256:d33c61cd2e0b8432a6fd7e09040669ee99c2d232de39e729616756bcde8c3e37"
+		]
+	},
+	"Metadata": {
+		"LastTagTime": "2022-04-09T22:19:09.4572296Z"
+	}
+}
